@@ -15,3 +15,10 @@ var numbers = [78, 45, 98, 45];
  var element = numbers.pop();
  console.log(numbers);
  console.log(element);
+
+ /** Task 1: How to remove first element in array */
+
+ var fruits = ['Orange', 'Apple', 'Mango', 'Papaya'];
+ fruits.shift();
+ console.log(fruits);
+ 
