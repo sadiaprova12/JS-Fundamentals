@@ -12,4 +12,7 @@
 //console.log(6 == 6);
 
 // 5. [5 er 6 er not equal kina?]
-console.log(5 != 6);
+//console.log(5 != 6);
+
+
+console.log(15 != 15);
