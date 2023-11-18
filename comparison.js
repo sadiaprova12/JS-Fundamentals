@@ -13,6 +13,15 @@
 
 // 5. [5 er 6 er not equal kina?]
 //console.log(5 != 6);
+//console.log(15 != 15);
 
+// 6. [Less than or equal]
+//console.log( 5 <= 6 );
+// console.log( 6 <= 6 );
+// console.log( 16 <= 6 );
 
-console.log(15 != 15);
+// 7. [Grather Than or equal ]
+// console.log( 5 >= 6 );
+// console.log( 5 >= 2 );
+console.log( 2 >= 2 );
+
