@@ -23,5 +23,17 @@
 // 7. [Grather Than or equal ]
 // console.log( 5 >= 6 );
 // console.log( 5 >= 2 );
-console.log( 2 >= 2 );
+// console.log( 2 >= 2 );
+
+
+// 8. Variable Comparison
+var num1 = 56;
+var num2 = 89;
+
+// console.log( num1 < num2 );
+// console.log( num1 > num2 );
+// console.log( num1 == num2 );
+// console.log( num1 != num2 );
+// console.log( num1 >= num2 );
+// console.log( num1 <= num2 );
 
