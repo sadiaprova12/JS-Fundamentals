@@ -37,3 +37,12 @@ var num2 = 89;
 // console.log( num1 >= num2 );
 // console.log( num1 <= num2 );
 
+
+// 9. Multiple condition
+
+// a. [money ar ekjon r sathy boro hote hbe abar result o boro hote hbe]
+// money1 > money2 && result1 > result2 && height1 > height2
+
+// b. [Hoy money 2nd jon r sathy besi hote hbe , na hole resutlt 2nd result theke besi hote hbe]
+// money1 > money2 || result1 > result2 || height1 > height2
+
