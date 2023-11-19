@@ -56,8 +56,49 @@ function calculateGrade(score) {
     }
 }
 
-console.log("Your grade: " + calculateGrade(myScore));
-console.log("Tom's grade: " + calculateGrade(tomScore));
-console.log("Jane's grade: " + calculateGrade(janeScore));
-console.log("Peter's grade: " + calculateGrade(peterScore));
-console.log("John's grade: " + calculateGrade(jhoneScore));
+// console.log("Your grade: " + calculateGrade(myScore));
+// console.log("Tom's grade: " + calculateGrade(tomScore));
+// console.log("Jane's grade: " + calculateGrade(janeScore));
+// console.log("Peter's grade: " + calculateGrade(peterScore));
+// console.log("John's grade: " + calculateGrade(jhoneScore));
+
+
+// Problem 3
+/**
+ * 1. You are given three numbers 13, 79, and 45. Write a program that will print the largest number using if-else.
+
+2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a triangle is Isosceles or not using if-else.
+
+Isosceles => two sides are equal
+ */
+
+// Given numbers
+var num1 = 13;
+var num2 = 79;
+var num3 = 45;
+
+// Find the largest number
+var largestNumber;
+
+if (num1 >= num2 && num1 >= num3) {
+    largestNumber = num1;
+} else if (num2 >= num1 && num2 >= num3) {
+    largestNumber = num2;
+} else {
+    largestNumber = num3;
+}
+
+// Output the result
+console.log("The largest number is: " + largestNumber);
+
+// Given sides of the triangle
+var side1 = 9;
+var side2 = 8;
+var side3 = 9;
+
+// Check if it's an Isosceles triangle
+if (side1 === side2 || side1 === side3 || side2 === side3) {
+    console.log("The triangle is Isosceles.");
+} else {
+    console.log("The triangle is not Isosceles.");
+}
